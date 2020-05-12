@@ -1,6 +1,4 @@
-// Copyright 2018-2019 the ZhiBing. All rights reserved. MIT license.
-import "./vendor/moment.js";
-
-const { moment } = window as any;
+// @deno-types="./Moment.d.ts"
+import moment from './moment_reexport.ts';
 
 export { moment };
